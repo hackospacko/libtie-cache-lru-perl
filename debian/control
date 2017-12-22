@@ -7,8 +7,7 @@ Build-Depends-Indep: libcarp-assert-perl,
  libclass-data-inheritable-perl,
  libclass-virtual-perl,
  libenum-perl,
- perl,
- perl-modules (>= 0.82)
+ perl
 Standards-Version: 3.9.2
 Homepage: http://search.cpan.org/dist/Tie-Cache-LRU/
 
@@ -19,7 +18,7 @@ Depends: ${misc:Depends}, ${perl:Depends},
  libclass-data-inheritable-perl,
  libclass-virtual-perl,
  libenum-perl,
- perl-modules (>= 0.82)
+ perl
 Description: A Least-Recently Used cache
  NOTE There are no plans to update this module. Please consider using CHI or
  other caching framework.
